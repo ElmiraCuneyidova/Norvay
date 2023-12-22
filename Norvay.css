@@ -1,0 +1,89 @@
+body 
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header
+  {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1000;
+    background-color: #3861d1;
+    color: #fff;
+    height: 4em;
+    padding: 1px;
+  }
+
+  footer
+  {
+    background-color: #3861d1;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .main-content 
+  {
+    display: flex;
+  }
+  
+  .left, .center
+  {
+    top: 3em;
+    padding: 20px;
+    
+  }
+  
+  .left 
+  {
+    /* overflow-y: auto; */
+    height: 100%;
+    position: fixed;
+    background-color: #cbced1;
+    width: 12%;
+  }
+  
+  .center 
+  {
+    overflow-x: auto;
+    background-color: #ffffff;
+    margin-left: 15%;
+  
+  }
+
+  table
+  {
+    border-collapse: collapse;
+    text-align: center;
+    width: 60%;
+    /* height: auto; */
+    margin: 40px;
+
+
+  }
+  th
+  {
+    height: 40px;
+
+  }
+
+  .odd
+  {
+    background-color: #eeeeee;
+
+  }
+   .metbex
+   {
+    margin-left: 5em;
+    width: 350px;
+    height: 250px;
+
+   }
+
+  #map{
+    margin: 20px
+  }
+  
